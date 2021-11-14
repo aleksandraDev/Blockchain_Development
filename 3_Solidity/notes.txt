@@ -1,0 +1,9 @@
+Vote defi - Cyril
+
+Si tu as besoin d'indexer tes proposals, autant utiliser un tableau Proposal[] proposals
+Très bien le modifier isVoter et isStatus
+Bien l'agencement variable puis event puis modifier puis fonctions
+dans register voter, pas besoin de reassigner les variables par défaut (le false et le 0)
+Le require de get winner winning > 0 implique que la premiere proposition ne peut pas gagner, c'est dommage
+C'est un très bon travail, continue comme ça :)
+9/10
