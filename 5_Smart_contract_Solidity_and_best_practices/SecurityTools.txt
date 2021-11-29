@@ -1,0 +1,30 @@
+Outils de sécurité
+Outils de sécurité / Documentation
+Analyse statique
+L’analyse statique consiste repérer dans le code les erreurs courantes. 
+
+Remix en fournit un dans l’onglet analyse statique
+Mythril https://github.com/ConsenSys/mythril
+Slither https://github.com/crytic/slither
+ 
+
+Exécution symbolique
+Manticore est un outil d'exécution symbolique. Il permet d’étudier l’ensemble des états que peut prendre le Smart Contract. https://github.com/trailofbits/manticore
+
+Tests flou (“Fuzzy Testing”)
+
+Les tests flous, ou fuzzy testing, consistent à tester aléatoirement un grand nombre d’entrées. Echidna par exemple https://github.com/crytic/echidna
+
+ 
+
+Pour en savoir plus :
+
+https://blog.sigmaprime.io/solidity-security.html 
+
+https://github.com/crytic/awesome-ethereum-security/blob/master/README.md 
+
+https://consensys.github.io/smart-contract-best-practices/security_tools/ 
+
+https://diligence.consensys.net/tools/
+
+https://solidity.readthedocs.io/en/v0.5.3/resources.html#solidity-tools 

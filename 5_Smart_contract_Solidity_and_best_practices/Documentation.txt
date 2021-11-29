@@ -1,0 +1,52 @@
+Outils pour générer de la documentation
+Outils de sécurité / Documentation
+Ethereum Natural Language Specification Format (NatSpec)
+Les smart contract Solidity peuvent avoir une forme particulière de commentaires pour fournir une documentation riche pour les fonctions, les variables de retour et plus encore. Cette forme spéciale s'appelle le format de spécification du langage naturel Ethereum (natspec). Cette méthode est inspiré d’une pratique équivalente en Javascript (JSDoc).
+
+ 
+
+Les commentaires peuvent compléter le contrat ou une fonction. Ils sont écrits avant le contrat ou la fonction documenté.
+
+ /**
+ * @dev See {IERC20-approve}.
+ *
+ * Requirements:
+ *
+ * - `spender` cannot be the zero address.
+ */
+function approve(address spender, uint256 amount) public returns (bool) {
+   _approve(_msgSender(), spender, amount);
+   return true;
+}
+Exemple tiré du contrat ERC20 de Open-Zeppellin https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
+
+Les deux champs les plus utilisés sont @notice pour donner des informations générales et @dev pour donner des informations destinées aux développeurs.
+ 
+
+Exemple documentation : 
+En se basant sur notre smart contract ERC20Token.sol (qui se repose sur la librairie d’OpenZeppelin ERC20.sol), vous pouvez générer directement via Remix un document md via le plugin EthDoc. 
+
+🔍 Pour plus d’explications, suivez ce lien. 
+
+Le résultat est stocké directement sur ipfs et consultable via ce lien. 
+
+ 
+
+Liste des outils pour générer de la documentation :
+Remix Plugin (EthDoc) :  Solidity Documentation Generator  génère un document md en se basant sur les natspec 
+Doxity : génère de la documentation pour solidity (fonctionne avec truffle) en se basant sur les natspec
+Solidity-docgen : génère de la documentation pour solidity en se basant sur les natspec
+
+Pour plus de visuel vous pouvez utiliser des deux outils suivants :
+
+Surya est un outil qui  fournit un certain nombre de résultats visuels et d'informations sur la structure des smart contrats 
+Solgraph Génère un graphique DOT qui visualise le flux de contrôle des fonctions d'un contrat Solidity et met en évidence les vulnérabilités potentielles de sécurité. 
+ 
+
+Pour en savoir plus  :
+
+A survey of attacks on Ethereum smart contracts 
+Ethereum Smart Contract Security Best Practices
+Examples of Solidity security issues
+https://solidity.readthedocs.io/en/latest/security-considerations.html
+https://medium.com/insa-tc/ethereum-et-smart-contract-fonctionnement-et-vulnérabilité-3d37d351a8a9 
