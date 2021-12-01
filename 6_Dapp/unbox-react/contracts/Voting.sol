@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL
-pragma solidity 0.8.7;
+pragma solidity 0.8.9;
 
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "../node_modules/@openzeppelin/contracts/access/Ownable.sol";
 
 
 /// @title Voting System contract
