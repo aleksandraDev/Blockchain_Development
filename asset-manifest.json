@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Blockchain_Development/unbox-react/static/css/main.2ee412d3.chunk.css",
+    "main.js": "/Blockchain_Development/unbox-react/static/js/main.8ae5f780.chunk.js",
+    "main.js.map": "/Blockchain_Development/unbox-react/static/js/main.8ae5f780.chunk.js.map",
+    "runtime-main.js": "/Blockchain_Development/unbox-react/static/js/runtime-main.8f7fbe85.js",
+    "runtime-main.js.map": "/Blockchain_Development/unbox-react/static/js/runtime-main.8f7fbe85.js.map",
+    "static/css/2.5ae24c3e.chunk.css": "/Blockchain_Development/unbox-react/static/css/2.5ae24c3e.chunk.css",
+    "static/js/2.3aa8f2bf.chunk.js": "/Blockchain_Development/unbox-react/static/js/2.3aa8f2bf.chunk.js",
+    "static/js/2.3aa8f2bf.chunk.js.map": "/Blockchain_Development/unbox-react/static/js/2.3aa8f2bf.chunk.js.map",
+    "index.html": "/Blockchain_Development/unbox-react/index.html",
+    "static/css/2.5ae24c3e.chunk.css.map": "/Blockchain_Development/unbox-react/static/css/2.5ae24c3e.chunk.css.map",
+    "static/css/main.2ee412d3.chunk.css.map": "/Blockchain_Development/unbox-react/static/css/main.2ee412d3.chunk.css.map",
+    "static/js/2.3aa8f2bf.chunk.js.LICENSE.txt": "/Blockchain_Development/unbox-react/static/js/2.3aa8f2bf.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/Blockchain_Development/unbox-react/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f7fbe85.js",
+    "static/css/2.5ae24c3e.chunk.css",
+    "static/js/2.3aa8f2bf.chunk.js",
+    "static/css/main.2ee412d3.chunk.css",
+    "static/js/main.8ae5f780.chunk.js"
+  ]
+}
