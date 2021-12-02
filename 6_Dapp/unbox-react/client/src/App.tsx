@@ -108,7 +108,6 @@ const App = () => {
     }
     if (event.event === 'Voted') {
       const proposalId = event.returnValues.proposalId;
-      const voter = event.returnValues.voter;
       setProposals((prevProposals) =>
         prevProposals.map((p) => (p?.id === Number(proposalId) ? { ...p, votes: p.votes + 1 } : p))
       );
@@ -121,8 +120,7 @@ const App = () => {
   };
 
   const handleChangeStatus = async () => {
-    const { accounts, contract } = state;
-
+    const { contract } = state;
     await contract?.methods?.changeStatus().send({ from: state.owner });
   };
 
@@ -156,7 +154,6 @@ const App = () => {
   };
 
   const loadPhaseComponents = () => {
-    console.log(typeof workflowStatus, typeof WorkflowStatus.ProposalsRegistrationStarted);
     switch (workflowStatus) {
       case WorkflowStatus.RegisteringVoters:
         if (state.selectedAccount === state.owner) {

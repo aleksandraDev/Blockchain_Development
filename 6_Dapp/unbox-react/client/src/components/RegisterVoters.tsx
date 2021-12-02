@@ -15,7 +15,7 @@ export const RegisterVoters = ({ onVoterSubmit }: Props) => {
   };
 
   return (
-    <Form style={{ display: 'flex', alignItems: 'flex-start' }}>
+    <Form style={{ display: 'flex', alignItems: 'flex-start', width: '400px', justifyContent: 'space-between' }}>
       <Form.Field>
         <input type='text' placeholder='Voter address' value={value} onChange={handleChange} />
         {!value && (
