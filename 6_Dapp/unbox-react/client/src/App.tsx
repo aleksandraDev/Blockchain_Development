@@ -146,7 +146,7 @@ const App = () => {
   };
 
   const handleTallingVotes = async () => {
-    const res = await state.contract?.methods?.tallingVotes().send({ from: state.selectedAccount });
+    await state.contract?.methods?.tallingVotes().send({ from: state.selectedAccount });
   };
 
   const handleGetWinner = async () => {

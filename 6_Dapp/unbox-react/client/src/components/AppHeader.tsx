@@ -10,7 +10,7 @@ const AppHeader: React.FC<Props> = ({ address }) => (
     <Header as='h1' floated='left'>
       Voting System
     </Header>
-    <Header as='h3' floated='right'>
+    <Header as='h4' floated='right'>
       {`Connected address: ${address}`}
     </Header>
   </Segment>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Grid, Table } from 'semantic-ui-react';
+import { Button, Table } from 'semantic-ui-react';
 
 interface Proposal {
   name: string;
